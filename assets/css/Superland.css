@@ -1,0 +1,497 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.parallax{
+    background-image: url("../images/dashboard/coverblue.png");
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.home .content h3{
+    float:1 1 40rem; 
+    color: var(--black);
+}
+
+/*SUPERLAND STORE tite*/
+.page-title{
+   
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #016E3F;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    font-variant: small-caps;
+    font-size: 108px;
+    font-family: "Laila", serif;
+    font-weight: bold;
+    letter-spacing:2px;
+    /*font border*/
+    -webkit-text-stroke: 2.5px #ffffff;
+    
+ }
+
+
+/*menu stable possitin command*/
+#sticky{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*menu(nvbar) Section*/
+.menu{
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background: #00a388; */
+    background: #013c37;
+    text-align: center;
+    height: 70PX;
+    
+}
+.menu-ul{
+    
+    margin: 0;
+    padding:0;
+    display: inline;
+}
+.menu-ul li{
+    font-family: "Laila", serif;
+    height: 67.5PX;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight:normal;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 25px 25px;
+
+    letter-spacing:1px ;
+}
+.a-menu{
+    text-decoration: none;
+    color: white;
+}
+.menu-ul li:hover{
+   
+    background:#049185;
+    transform: scale(1.1);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.search-box{
+    display: inline-block;
+    position: relative;
+    width: 230px;
+    margin: 0 10px;
+    border-radius:50px;
+    margin: 12px;
+    background: white;
+    
+}
+
+.search-box:hover{
+    box-shadow: 0 0 10px 1px #049185;  
+}
+
+.search-input{
+    font-family: "Laila", sans-serif;
+    width: 100%;
+    height: 25px;
+    border-radius: 40px;
+    padding: 5px 12px;
+    padding-left: 15px;
+    font-size: 13px;
+    outline: none;
+    border: 1px solid #717171;
+    border:none;       
+}
+
+.search-box i{
+    position: absolute;
+    top: 5px;
+    left: 12.5rem;
+    font-size: 1rem;}
+
+i{
+    background: none;
+    font-size: 16px;
+    margin: 0.5px;  
+}
+
+.categories .btn i{
+   
+    background: none;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.1rem;
+}
+
+
+/*manage sections content gap*/
+section{
+    padding: 2rem;
+}
+
+
+
+/*--------------Banner title("Deals") section-----------*/
+                .title{
+                    font-family: "Laila", serif;
+                    font-weight: bolder;
+                    width: 100%;
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 40px;
+                    
+                    color: white;
+                    background: rgba(0, 0, 0, 0.5);
+                }
+
+                /*Slide section*/
+                * {box-sizing: border-box;}
+                body {font-family: Verdana, sans-serif;}
+
+                .mySlides {
+                  
+                    scroll-snap-type: x mandatory;
+                    scroll-behavior: smooth;
+                    box-shadow: 0 1.5rem 3rem -0.7rem hsla(0, 0%, 0%, 0.25);
+                }
+                img {vertical-align: middle;}
+
+                /* Slideshow container */
+                .slideshow-container {
+                    padding: 6rem;
+                    max-width: 1000px;
+                    margin: auto;
+                }
+                
+                
+                
+                .active {
+                    background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                    animation-name: fade;
+                    animation-duration: 2.5s;
+                }
+                
+                @keyframes fade {
+                    from {opacity: .1} 
+                    to {opacity: 20}
+                }
+                
+                /* On smaller screens, decrease text size */
+                @media only screen and (max-width: 300px) {
+                    .text {font-size: 11px}
+                }
+                
+
+
+/*-----------"Shop by Categories" containers-------*/
+                                    
+/*------------Shop by Categories section---------*/
+                                        /*categories containers create*/
+                                        .categories-containers .container .categories{
+                                            width: fit-content;
+                                            padding: 1rem;
+                                            margin: 16px;
+                                            border:1px solid #02785f;
+                                            border-radius: 20px 20px 20px 20px;
+                                            display: inline-block;
+                                            cursor: pointer;
+                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                            -webkit-transition-duration: 0.8s;
+                                            transition-duration: 0.8s;
+                                            -webkit-transition-property: box-shadow, transform;
+                                            transition-property: box-shadow, transform;
+
+                                        }
+                                        /*containers position, gaps*/
+                                       .categories-containers .container{
+                                            margin: 50PX 50PX 50PX 5%;
+                                            width: 90%;
+                                            padding-bottom: 40px;
+                                        }
+
+                                        /*categories containers popup kit style*/
+                                        .categories-containers .container .categories:hover, .container:focus .container.active{
+                                            
+                                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+                                            /*categories containers popup kit style*/
+                                            -webkit-transform: scale(1.1);
+                                            transform: scale(1.1);
+                                        }
+
+                                        /*categories containers images*/
+                                        .item-image-c{
+                                            text-align: center; 
+                                            height: 168px;
+                                            width: 190px;
+                                            padding: 10px;
+                                            border-radius: 20px 20px 20px 20px;
+                                            
+                                        }
+                                        /*categories containers title*/
+                                        .image-title-c{
+                                            font-size:20px;
+                                            text-align: center;
+                                            font-weight:650;
+                                            font-family: "Laila", serif; 
+                                        }
+                                    /*-----Categories and Product btn create------*/
+                                    .btn{
+                                        display: inline-block;
+                                        margin-top: 1rem;
+                                        font-family: "Laila", serif;
+                                        font-size: 0.8rem;
+                                        background: #02786e; 
+                                        padding: 0.3rem;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        color: #ffff;
+                                        border-radius: 12px;
+                                        cursor: pointer;
+                                        font-weight: 500;
+                                        border-width: 0px;
+                                        
+                                    }
+                                    .btn:hover{
+                                        background: #f8d31c;
+                                        color: #02785f;
+                                        
+                                    }
+                                    .categories .content2 .btn{
+                                        border-radius: 5px;
+                                        border-width: 0px;
+
+
+                                    }
+
+
+/*--------------Product section-------------------*/
+
+.product .container {
+    margin: 50PX 50PX 50PX 5%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+/* Retain the existing styles or adjust them as needed */
+.item-image-p {
+    height: 150px;
+    width: 180px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+.image-title-p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 650;
+    font-family: "Laila", serif;
+}
+
+.product .container .categories .price {
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Laila", serif;
+}
+
+.product .container .categories .stars {
+    padding-left: 0.5rem;
+    text-align: left;
+    font-size: 50%;
+    font-weight: lighter;
+    color: gold;
+}
+
+.product .container .categories .quantity {
+    text-align: left;
+    padding-left: 0.5rem;
+    font-size: small;
+    font-family: "Laila", serif;
+}
+                
+
+                
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 17PX;
+    color:var(--black);
+    font-family: "Laila", serif; 
+
+}
+
+.column-about .about-title{
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 25PX;
+    color:var(--black);
+    font-family: "Laila", serif; 
+
+}
+
+.column-about p{
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: normal;
+    text-align: left;
+    font-size: 18PX;
+    color:#000000;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+footer{
+border-radius: 90px 0 90px 0 ;
+    /* background-color: #20734c; */
+    background-color: #013c37;
+    color: white;
+    height: 58vh;
+}
+.container{
+    width: 88%;
+    margin: 0px auto;
+
+}
+.wrap{
+    display: table;
+    box-sizing: border-box;
+}
+.row{
+    /*background-color: #f8d31c;*/ 
+    margin: 8px 0;
+}
+
+
+.column{
+    width: 25%;
+    display: table-cell;
+    padding: 1px;
+    text-align: center;
+}
+
+.footer-widget{
+    /*background-color: #aba8a8;*/
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.widget-title{
+    color: #ffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Madimi One", sans-serif;
+
+}
+
+.footer-widget p{
+    font-family: "Poppins", sans-serif;
+
+    color: #aba8a8;
+    line-height: 20px;
+    margin: 10px 0 30px 0;
+}
+.cards i{
+    color: #aba8a8;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 12px;
+}
+
+.card-widget p span{
+    margin-right: 10px;
+}
+
+
+
+.categories-widget, .information-widget, .newsletter-widget, .contact-widget{
+    margin-left: 50px;
+}
+.newsletter-widget{
+    transform: translateX(-15%);
+}
+
+.footer-widget ul{
+    margin-left: 0;
+}
+.footer-widget ul li{
+    padding-bottom: 14px;
+    margin-left: 0;
+}
+.footer-widget ul li a{
+    color: #aba8a8;
+    text-decoration: none;
+}
+
+.footer-widget ul li a:hover{
+    color: #f8d31c;
+    margin-left: 10px;
+    transition: all .5s ease;
+}
+
+.newsletter-widget .btn{
+    border-radius: 0;
+    border-width: 0;
+}
+
+li{
+    color: #aba8a8;
+    transform: translateX(-10%); 
+}
+
+
+.contact-widget i{
+    margin-right: 10px;
+}
+
+
+
+.social-widget i{
+    display: inline-block;
+    font-size: 35px;
+    color: #aba8a8;
+    margin-right: 10px;
+} 
+.social-widget .fa-square-facebook:hover{
+    color: #1773ea;
+    transition: all .5s ease;
+}
+.social-widget .fa-square-instagram:hover{
+    color: #c40096;
+    transition: all .5s ease;
+}
+.social-widget .fa-linkedin:hover{
+    color: #2764ac;
+    transition: all .5s ease;
+}
+.social-widget .fa-square-youtube:hover{
+    color: #f70000;
+    transition: all .5s ease;
+}
+
+
