@@ -2,6 +2,13 @@
 
 SuperLand is a PHP and MySQL based e-commerce web application developed as an academic web development project. It includes a customer shopping website and an admin dashboard for managing products, categories, and admin users.
 
+<p align="center">
+  <img src="assets/images/dashboard/Superland-Poster.png"
+       alt="SuperLand e-commerce website showing the customer storefront, online shopping features, and admin dashboard"
+       width="100%">
+</p>
+
+
 ## Features
 
 ### Customer Side
